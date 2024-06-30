@@ -1,0 +1,23 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Apply base styles from Tailwind */
+@tailwind base;
+
+/* Apply component styles from Tailwind */
+@tailwind components;
+
+/* Apply utility styles from Tailwind */
+@tailwind utilities;
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: rgb(202, 202, 201); /* Light gray background */
+}
